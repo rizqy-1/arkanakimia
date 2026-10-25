@@ -20,7 +20,7 @@ export const products = [
     {
         id: "asam-humate",
         nama: "Asam Humate",
-        gambar: "src/assets/AsamHumate.jpeg",
+        gambar: "/assets/AsamHumate.jpeg",
         deskripsiSingkat: "Suplemen tanah organik premium untuk pertanian.",
         deskripsiLengkap: "Asam Humate adalah senyawa organik kompleks yang sangat penting untuk kesehatan dan kesuburan tanah. Produk kami diekstrak dari sumber alami berkualitas tinggi, dirancang khusus untuk meningkatkan struktur tanah, kapasitas menahan air, dan ketersediaan nutrisi bagi tanaman. Penggunaan rutin akan merangsang pertumbuhan akar yang kuat, meningkatkan hasil panen, dan mengurangi kebutuhan pupuk anorganik, menjadikannya pilihan ideal untuk pertanian berkelanjutan.",
         manfaat: [
@@ -35,7 +35,7 @@ export const products = [
     {
         id: "kaporit-tjiwi-60",
         nama: "Calcium Hypochlorite (Kaporit Tjiwi 60%)",
-        gambar: "src/assets/CalciumHypochlorite(Kaporittjiwi60℅).jpeg", // Sesuaikan nama file jika error
+        gambar: "/assets/CalciumHypochlorite(Kaporittjiwi60℅).jpeg", // Sesuaikan nama file jika error
         deskripsiSingkat: "Disinfektan kuat untuk kolam renang dan pengolahan air.",
         deskripsiLengkap: "Calcium Hypochlorite, umumnya dikenal sebagai kaporit, dengan konsentrasi klorin aktif 60% dari merek terpercaya Tjiwi. Produk ini adalah agen sanitasi dan oksidator yang sangat efektif. Sangat ideal untuk sterilisasi air kolam renang, pengolahan air minum, dan disinfeksi air limbah. Kaporit ini bekerja cepat membunuh bakteri, virus, dan alga, menjaga air tetap jernih, bersih, dan aman digunakan.",
         manfaat: [
@@ -50,7 +50,7 @@ export const products = [
     {
         id: "caustic-soda-flake",
         nama: "Caustic Soda Flake (NaOH)",
-        gambar: "src/assets/CausticSodaFlake(NaohFlake).jpeg",
+        gambar: "/assets/CausticSodaFlake(NaohFlake).jpeg",
         deskripsiSingkat: "Bahan esensial untuk sabun dan pengolahan limbah.",
         deskripsiLengkap: "Caustic Soda Flake (Natrium Hidroksida) berbentuk serpihan putih adalah basa kuat yang sangat reaktif. Ini merupakan bahan kimia dasar yang tak tergantikan di berbagai industri. Produk kami memiliki tingkat kemurnian tinggi, sangat mudah larut dalam air dengan melepaskan panas. Banyak digunakan dalam proses saponifikasi (pembuatan sabun), netralisasi asam dalam pengolahan air limbah, pemrosesan kertas, dan industri tekstil.",
         manfaat: [
@@ -65,7 +65,7 @@ export const products = [
     {
         id: "citric-acid",
         nama: "Citric Acid (C6H8O7)",
-        gambar: "src/assets/CitridAcid(C6H8O7).jpeg",
+        gambar: "/assets/CitridAcid(C6H8O7).jpeg",
         deskripsiSingkat: "Pengatur keasaman dan pembersih ramah lingkungan.",
         deskripsiLengkap: "Citric Acid atau Asam Sitrat adalah asam organik lemah yang ditemukan secara alami dalam buah jeruk. Ini adalah salah satu bahan tambahan makanan yang paling umum digunakan sebagai pengatur keasaman (pengasam) dan pengawet. Selain industri makanan dan minuman, Asam Sitrat kami sangat efektif digunakan sebagai agen pembersih kerak (descaler) ramah lingkungan dan *chelating agent* dalam industri kosmetik dan pembersih rumah tangga.",
         manfaat: [
@@ -80,7 +80,7 @@ export const products = [
     {
         id: "hcl",
         nama: "Hydrochloric Acid (HCL)",
-        gambar: "src/assets/HydrochloricAcid(HCL).jpeg",
+        gambar: "/assets/HydrochloricAcid(HCL).jpeg",
         deskripsiSingkat: "Asam kuat untuk pembersihan industri dan penyesuaian pH.",
         deskripsiLengkap: "Hydrochloric Acid (Asam Klorida) adalah asam kuat korosif yang merupakan larutan gas hidrogen klorida dalam air. Produk ini sangat penting dalam berbagai proses industri berat. HCL kami biasa digunakan untuk *pickling* baja (menghilangkan karat dan kerak sebelum pemrosesan), regenerasi resin *ion exchange*, pengaturan pH air industri, dan produksi berbagai senyawa kimia organik maupun anorganik.",
         manfaat: [
@@ -95,7 +95,7 @@ export const products = [
     {
         id: "hydrogen-peroxide",
         nama: "Hydrogen Peroxide (H2O2)",
-        gambar: "src/assets/HydrogenPeroxide(H2O2).jpeg",
+        gambar: "/assets/HydrogenPeroxide(H2O2).jpeg",
         deskripsiSingkat: "Agen pemutih, oksidator, dan disinfektan serbaguna.",
         deskripsiLengkap: "Hydrogen Peroxide adalah oksidator kuat yang sangat serbaguna dan ramah lingkungan, karena hanya terurai menjadi air dan oksigen. Produk H2O2 kami digunakan secara luas sebagai agen pemutih bebas klorin di industri kertas dan tekstil. Selain itu, ia merupakan disinfektan berspektrum luas yang efektif untuk sterilisasi permukaan, pengolahan air limbah, dan aplikasi di industri medis dan kosmetik.",
         manfaat: [
@@ -110,7 +110,7 @@ export const products = [
     {
         id: "magnesium-sulfate",
         nama: "Magnesium Sulfate (MgSO4)",
-        gambar: "src/assets/Magnesiumsulfate(MgSo4).jpeg",
+        gambar: "/assets/Magnesiumsulfate(MgSo4).jpeg",
         deskripsiSingkat: "Digunakan sebagai pupuk pertanian dan aplikasi garam medis.",
         deskripsiLengkap: "Magnesium Sulfate, umumnya dikenal sebagai Garam Epsom, adalah senyawa kimia yang mengandung magnesium, sulfur, dan oksigen. Produk ini sangat krusial dalam pertanian modern sebagai pupuk sekunder untuk mengatasi defisiensi magnesium pada tanah, yang penting untuk produksi klorofil tanaman. Selain itu, digunakan dalam industri tekstil, pembuatan kertas, dan sebagai garam mandi untuk relaksasi otot.",
         manfaat: [
@@ -125,7 +125,7 @@ export const products = [
     {
         id: "msg",
         nama: "Monosodium Glutamate (MSG)",
-        gambar: "src/assets/Monosodiumglumate(MSG).jpeg",
+        gambar: "/assets/Monosodiumglumate(MSG).jpeg",
         deskripsiSingkat: "Bahan tambahan pangan penguat rasa (flavor enhancer).",
         deskripsiLengkap: "Monosodium Glutamate adalah garam natrium dari asam glutamat, salah satu asam amino non-esensial yang paling melimpah di alam. MSG kami adalah bahan tambahan makanan *food-grade* berkualitas tinggi yang digunakan secara luas di seluruh dunia untuk menonjolkan rasa *umami* (gurih) pada berbagai hidangan gurih, sup, makanan ringan, dan produk daging olahan.",
         manfaat: [
@@ -140,7 +140,7 @@ export const products = [
     {
         id: "oxalic-acid",
         nama: "Oxalic Acid (H2C2O4)",
-        gambar: "src/assets/OxalicAcid(H2C2O4).jpeg",
+        gambar: "/assets/OxalicAcid(H2C2O4).jpeg",
         deskripsiSingkat: "Zat pembersih karat dan pemutih kayu (bleaching).",
         deskripsiLengkap: "Oxalic Acid atau Asam Oksalat adalah asam organik kuat yang berbentuk kristal putih. Kemampuannya yang luar biasa untuk mengikat mineral menjadikannya pembersih karat dan kerak yang tak tertandingi. Produk ini sangat populer sebagai bahan pemutih (bleaching) kayu ringan, mengembalikan warna asli kayu yang kusam. Juga digunakan dalam pencucian mineral, *mordant* dalam pewarnaan tekstil, dan industri kulit.",
         manfaat: [
@@ -155,7 +155,7 @@ export const products = [
     {
         id: "pac-jepang",
         nama: "Poly Aluminium Chloride (PAC Jepang)",
-        gambar: "src/assets/PolyAluminiunChloride(PacJepang).jpeg",
+        gambar: "/assets/PolyAluminiunChloride(PacJepang).jpeg",
         deskripsiSingkat: "Koagulan penjernih air kualitas tinggi dari Jepang.",
         deskripsiLengkap: "PAC Jepang adalah koagulan anorganik polimerik premium yang diimpor langsung dari Jepang. Dikenal dengan kemurnian dan efektivitasnya yang sangat tinggi, PAC ini bereaksi sangat cepat untuk mengikat partikel tersuspensi dalam air, membentuk flok yang padat dan cepat mengendap. Sangat direkomendasikan untuk instalasi pengolahan air minum (PDAM) yang menuntut standar kebersihan dan keamanan tertinggi, serta minim residu aluminium.",
         manfaat: [
@@ -170,7 +170,7 @@ export const products = [
     {
         id: "pac-jerman",
         nama: "Poly Aluminium Chloride (PAC Jerman)",
-        gambar: "src/assets/PolyAluminiunChloride(PacJerman).jpeg",
+        gambar: "/assets/PolyAluminiunChloride(PacJerman).jpeg",
         deskripsiSingkat: "Koagulan penjernih air limbah dan industri dari Jerman.",
         deskripsiLengkap: "PAC Jerman menawarkan keseimbangan sempurna antara kinerja yang kuat dan efisiensi biaya. Koagulan ini dirancang secara optimal untuk menangani air limbah industri yang kompleks dengan beban polutan organik dan anorganik yang tinggi. Sangat efektif dalam menurunkan kadar COD (Chemical Oxygen Demand) dan BOD, serta menghilangkan warna pada air limbah pabrik tekstil dan kertas.",
         manfaat: [
@@ -185,7 +185,7 @@ export const products = [
     {
         id: "pac-yellow",
         nama: "Poly Aluminium Chloride (PAC Yellow)",
-        gambar: "src/assets/PolyAluminiunChloride(PacYellow).jpeg",
+        gambar: "/assets/PolyAluminiunChloride(PacYellow).jpeg",
         deskripsiSingkat: "Koagulan serbaguna bentuk bubuk kuning untuk water treatment.",
         deskripsiLengkap: "PAC Yellow adalah varian PAC yang paling umum dan serbaguna dalam bentuk bubuk berwarna kuning. Ini adalah solusi ekonomis namun sangat andal untuk berbagai kebutuhan penjernihan air skala menengah hingga besar. Mudah dilarutkan dan digunakan secara luas di seluruh dunia untuk *Municipal Water Treatment* (pengolahan air kota), penjernihan air sungai, dan IPAL komunal.",
         manfaat: [
@@ -200,7 +200,7 @@ export const products = [
     {
         id: "soda-ash",
         nama: "Soda Ash (Na2CO3)",
-        gambar: "src/assets/Sodaash(Na2CO3).jpeg",
+        gambar: "/assets/Sodaash(Na2CO3).jpeg",
         deskripsiSingkat: "Bahan baku pembuatan kaca, deterjen, dan pengatur pH air.",
         deskripsiLengkap: "Soda Ash (Natrium Karbonat) adalah bubuk putih tanpa bau yang merupakan garam natrium. Ini adalah salah satu bahan kimia anorganik yang paling banyak diproduksi di dunia. Penggunaan terbesarnya adalah sebagai *flux* dalam industri pembuatan kaca (menurunkan titik leleh pasir silika). Selain itu, Soda Ash adalah komponen kunci dalam formulasi deterjen bubuk kering dan sangat efektif sebagai pengatur pH (penaik basa) di kolam renang dan pengolahan air.",
         manfaat: [
@@ -215,7 +215,7 @@ export const products = [
     {
         id: "spc",
         nama: "Sodium Percarbonate (SPC)",
-        gambar: "src/assets/SodiumPercarbonate(SPC).jpeg",
+        gambar: "/assets/SodiumPercarbonate(SPC).jpeg",
         deskripsiSingkat: "Sumber oksigen aktif untuk pemutih ramah lingkungan.",
         deskripsiLengkap: "Sodium Percarbonate adalah bahan kimia serbuk putih yang ketika dilarutkan dalam air akan melepaskan hidrogen peroksida dan natrium karbonat. Ini menjadikannya agen pemutih oksigen kering yang sangat kuat namun ramah lingkungan, ideal untuk deterjen pencerah warna (color-safe bleach). Produk SPC kami tidak beracun dan terurai dengan aman di lingkungan, sering disebut sebagai pemutih oksigen padat.",
         manfaat: [
@@ -230,7 +230,7 @@ export const products = [
     {
         id: "sodium-sulfate",
         nama: "Sodium Sulfate IBR (Na2SO4)",
-        gambar: "src/assets/SodiumSulfateIBR(Na2So4).jpeg",
+        gambar: "/assets/SodiumSulfateIBR(Na2So4).jpeg",
         deskripsiSingkat: "Digunakan luas dalam industri deterjen bubuk dan tekstil.",
         deskripsiLengkap: "Sodium Sulfate Anhydrous, umumnya *grade* IBR, adalah senyawa kimia stabil berwujud bubuk kristal putih. Fungsinya yang paling masif adalah sebagai bahan pengisi (filler) inert dalam produksi deterjen bubuk, membuat deterjen mudah mengalir bebas (free-flowing). Di industri tekstil, Sodium Sulfate adalah agen perata warna (*leveling agent*) yang memastikan pewarna tekstil terserap secara merata dan sempurna ke dalam serat kain.",
         manfaat: [
@@ -245,7 +245,7 @@ export const products = [
     {
         id: "talc-powder",
         nama: "Talc Powder",
-        gambar: "src/assets/Talcpowder.jpeg",
+        gambar: "/assets/Talcpowder.jpeg",
         deskripsiSingkat: "Bahan pengisi (filler) industri cat, plastik, dan kosmetik.",
         deskripsiLengkap: "Talc Powder (Bedak Talk) adalah mineral lempung magnesium silikat alami yang sangat halus dan lembut. Sifatnya yang *hydrophobic* (menolak air) dan keputihannya yang tinggi menjadikannya bahan pengisi (filler) fungsional yang sangat dihargai di berbagai industri. Talk kami meningkatkan kekakuan dan ketahanan panas pada plastik, memperbaiki tekstur dan penyebaran pada cat/pelapis, dan merupakan basa bedak yang umum di industri farmasi dan kosmetik.",
         manfaat: [
@@ -260,7 +260,7 @@ export const products = [
     {
         id: "tcca-granular",
         nama: "TCCA 90% (Granular)",
-        gambar: "src/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg",
+        gambar: "/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg",
         deskripsiSingkat: "Klorin murni bentuk butiran untuk sanitasi air kolam renang.",
         deskripsiLengkap: "Trichloroisocyanuric Acid (TCCA) dengan kandungan klorin aktif 90% berbentuk butiran (Granular). Ini adalah pembunuh bakteri dan algasida yang sangat kuat. Bentuk butirannya memungkinkan pelepasan klorin yang terkendali namun cukup cepat saat ditaburkan ke air. Produk ini sangat disukai untuk sanitasi harian dan penanganan air kolam renang ukuran besar secara profesional, menjaga air tetap jernih biru berkilau.",
         manfaat: [
@@ -275,7 +275,7 @@ export const products = [
     {
         id: "tcca-powder",
         nama: "TCCA 90% (Powder)",
-        gambar: "src/assets/TrichloroisocyanuricAcid(TccaPowder).jpeg",
+        gambar: "/assets/TrichloroisocyanuricAcid(TccaPowder).jpeg",
         deskripsiSingkat: "Klorin murni bentuk bubuk, larut cepat untuk shock treatment.",
         deskripsiLengkap: "TCCA 90% Powder (Bubuk) menawarkan kecepatan kelarutan yang jauh lebih tinggi dibandingkan granular atau tablet. Karena sifatnya yang langsung larut, produk ini merupakan senjata utama untuk *Shock Treatment*—tindakan darurat menaikkan kadar klorin secara drastis untuk membunuh 'ledakan' alga hijau yang tiba-tiba, atau membersihkan air kolam yang sangat kotor setelah hujan lebat atau penggunaan padat.",
         manfaat: [
@@ -290,7 +290,7 @@ export const products = [
     {
         id: "tcca-tablet",
         nama: "TCCA 90% (Tablet)",
-        gambar: "src/assets/TrichloroisocyanuricAcid(TccaTabletBesar).jpeg",
+        gambar: "/assets/TrichloroisocyanuricAcid(TccaTabletBesar).jpeg",
         deskripsiSingkat: "Klorin murni bentuk tablet larut lambat untuk perawatan rutin kolam.",
         deskripsiLengkap: "TCCA 90% Tablet (biasanya berukuran besar 200 gram) dirancang khusus untuk melarut secara sangat lambat di dalam air. Tablet ini ditempatkan di dalam *chlorine feeder* atau keranjang skimmer kolam. Ini adalah solusi *maintenance* (perawatan rutin) yang paling bebas repot; tablet akan terus melepaskan klorin murni dalam dosis rendah secara konsisten selama berminggu-minggu, menjaga kebersihan air tanpa perlu takaran harian.",
         manfaat: [
