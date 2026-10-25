@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="id">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Meta Deskripsi untuk SEO -->
+  <meta name="description" content="Arkana Kimia adalah distributor bahan kimia industri terpercaya di Indonesia. Menyediakan berbagai bahan kimia berkualitas tinggi." />
+  
+  <!-- Favicon (Gunakan logo Anda) -->
+  <link rel="icon" type="image/jpeg" href="/src/assets/Logo.jpg" />
+  
+  <title>Arkana Kimia | Solusi Bahan Kimia Terbaik</title>
+</head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <img
+              src="src/assets/Logo.jpg"
+              alt="Arkana Kimia Logo"
+              class="h-8 w-8 sm:h-10 sm:w-10 mr-2 sm:mr-3 rounded-full object-cover"
+            />
+            <span class="font-bold text-xl sm:text-2xl text-primary">Arkana Kimia</span>
+          </div>
+          <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+            <a href="#beranda" class="text-gray-600 hover:text-primary transition text-sm lg:text-base">Beranda</a>
+            <a href="#tentang" class="text-gray-600 hover:text-primary transition text-sm lg:text-base">Tentang Kami</a>
+            <a href="#produk" class="text-gray-600 hover:text-primary transition text-sm lg:text-base">Produk Terlaris</a>
+            <a href="#kontak" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-600 transition text-sm lg:text-base">Hubungi Kami</a>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none p-2">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Dropdown -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg border-t border-gray-100 absolute w-full">
+        <div class="px-2 pt-2 pb-4 space-y-1">
+          <a href="#beranda" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Beranda</a>
+          <a href="#tentang" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Tentang Kami</a>
+          <a href="#produk" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Produk</a>
+          <a href="#kontak" class="block px-3 py-2 rounded-md text-base font-bold text-primary hover:bg-gray-50">Hubungi Kami</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="pt-24 pb-16 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 bg-gradient-to-r from-primary to-blue-800 px-4">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 sm:mb-6 leading-tight">
+          Penyedia Bahan Kimia Industri <br class="hidden sm:block" /> Terpercaya di Indonesia
+        </h1>
+        <p class="text-base sm:text-lg md:text-xl text-blue-100 mb-8 sm:mb-10 max-w-3xl mx-auto px-2">
+          Arkana Kimia merupakan distributor kimia terpercaya, harga kompetitif dan kwalitas terjamin, kami melayani pembelian ke seluruh wilayah indonesia dengan pelayanan sepenuh hati, segera hubungi kami untuk kebutuhan kimia anda
+        </p>
+        <!-- Tombol Responsif: Vertikal di HP, Horizontal di PC -->
+        <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 px-4 sm:px-0">
+          <a href="#produk" class="w-full sm:w-auto text-center bg-white text-primary font-semibold px-8 py-3 rounded-md hover:bg-gray-100 transition shadow-lg">Lihat Produk</a>
+          <a href="produk.html" class="w-full sm:w-auto text-center bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-md hover:bg-white hover:text-primary transition">Katalog Lengkap</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="py-12 sm:py-16 md:py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10 sm:mb-12">
+          <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Tentang Arkana Kimia</h2>
+          <div class="w-20 sm:w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+        </div>
+        <div class="flex flex-col md:flex-row md:items-center gap-8 lg:gap-12">
+          <div class="w-full md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&q=80" alt="Laboratorium Kimia" class="rounded-lg shadow-xl w-full h-64 sm:h-80 lg:h-96 object-cover" />
+          </div>
+          <div class="w-full md:w-1/2">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-gray-800">Komitmen pada Kualitas & Keamanan</h3>
+            <p class="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">
+              Sejak didirikan, Arkana Kimia telah menjadi mitra strategis bagi berbagai industri di seluruh Indonesia. Kami memahami bahwa bahan kimia dasar adalah tulang punggung dari banyak proses produksi.
+            </p>
+            <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+              Dengan portofolio 19 produk unggulan, mulai dari pengolahan air hingga kebutuhan industri tekstil dan makanan, kami menjamin kemurnian, keamanan pengiriman, dan harga yang kompetitif untuk memajukan bisnis Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid Section (Top 6 Best Sellers) -->
+    <section id="produk" class="py-12 sm:py-16 md:py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10 sm:mb-12">
+          <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Produk Terlaris Kami</h2>
+          <p class="text-gray-600 mt-2 sm:mt-4 text-sm sm:text-base">Beberapa produk unggulan dari 19 total katalog bahan kimia kami.</p>
+          <div class="w-20 sm:w-24 h-1 bg-primary mx-auto mt-4 rounded"></div>
+        </div>
+
+        <!-- Grid Responsif -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          
+          <!-- Product 1 -->
+          <a href="detail-produk.html?id=citric-acid" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="/src/assets/CitridAcid(C6H8O7).jpeg" alt="Citric Acid" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Citric Acid (C6H8O7)</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Pengatur keasaman, pengawet alami, dan bahan pembersih ramah lingkungan.</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Product 2 -->
+          <a href="detail-produk.html?id=caustic-soda-flake" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="/src/assets/CausticSodaFlake(NaohFlake).jpeg" alt="Caustic Soda Flake" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Caustic Soda Flake (NaOH)</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Bahan kimia industri esensial untuk pembuatan sabun, deterjen, dan pengolahan air.</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Product 3 -->
+          <a href="detail-produk.html?id=asam-humate" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="/src/assets/AsamHumate.jpeg" alt="Asam Humate" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Asam Humate</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Suplemen tanah organik premium untuk meningkatkan kesuburan dan hasil pertanian.</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Product 4 -->
+          <a href="detail-produk.html?id=hydrogen-peroxide" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="/src/assets/HydrogenPeroxide(H2O2).jpeg" alt="Hydrogen Peroxide" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Hydrogen Peroxide (H2O2)</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Agen pemutih, oksidator, dan disinfektan kuat untuk kebutuhan medis dan industri.</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Product 5 -->
+          <a href="detail-produk.html?id=pac-jepang" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="src\assets\PolyAluminiunChloride(PacJepang).jpeg" alt="PAC" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="this.src='/src/assets/PolyAluminiunChloride(PacJepang).jpeg'" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Poly Aluminium Chloride</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Koagulan efisien untuk penjernihan air minum, air limbah, dan industri kertas.</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Product 6 -->
+          <a href="detail-produk.html?id=magnesium-sulfate" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition group flex flex-col block cursor-pointer">
+            <div class="h-48 sm:h-56 bg-gray-200 overflow-hidden relative">
+              <img src="/src/assets/Magnesiumsulfate(MgSO4).jpeg" alt="Magnesium Sulfate" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            </div>
+            <div class="p-5 sm:p-6 flex flex-col flex-grow">
+              <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition">Magnesium Sulfate (MgSO4)</h3>
+              <p class="text-gray-600 text-sm mb-4 flex-grow">Digunakan luas dalam pertanian sebagai pupuk, serta aplikasi medis (Garam Epsom).</p>
+              <span class="text-primary font-semibold text-sm sm:text-base group-hover:underline mt-auto">Lihat Detail Produk &rarr;</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="mt-10 sm:mt-12 text-center px-4 sm:px-0">
+          <a href="produk.html" class="block sm:inline-block w-full sm:w-auto bg-white border-2 border-primary text-primary font-bold px-6 py-3 rounded-md hover:bg-primary hover:text-white transition">Lihat Seluruh 19 Produk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-secondary text-gray-300 py-10 sm:py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center sm:text-left">
+        <div>
+          <h4 class="text-white text-xl font-bold mb-4 flex items-center justify-center sm:justify-start">
+            Arkana Kimia
+          </h4>
+          <p class="text-sm">
+            Mitra terpercaya untuk solusi bahan kimia berkualitas tinggi. Mendukung kemajuan industri dengan layanan prima dan produk terbaik.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-white text-lg font-bold mb-4">Tautan Cepat</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#beranda" class="hover:text-white transition">Beranda</a></li>
+            <li><a href="#tentang" class="hover:text-white transition">Tentang Kami</a></li>
+            <li><a href="#produk" class="hover:text-white transition">Katalog Produk</a></li>
+            <li><a href="produk.html" class="hover:text-white transition">Semua Produk (19 Item)</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white text-lg font-bold mb-4">Hubungi Kami</h4>
+          <ul class="space-y-3 text-sm inline-block sm:block text-left">
+            <li class="flex items-start">
+              <span class="mr-3">📍</span>
+              <span>Jl. Kawasan Industri No. 45, Jakarta Raya, Indonesia</span>
+            </li>
+            <li class="flex items-center">
+              <span class="mr-3">📞</span>
+              <a href="https://wa.me/6282123616156" target="_blank" class="hover:text-white transition">+62 821-2361-6156</a>
+            </li>
+            <li class="flex items-center">
+              <span class="mr-3">✉️</span>
+              <span>info@arkanakimia.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm px-4">
+        <p>&copy; 2026 Arkana Kimia. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- STICKY WHATSAPP BUTTON (Global) -->
+    <a href="https://wa.me/6282123616156?text=Halo%20Arkana%20Kimia,%20saya%20ingin%20memesan:%0A%0ANama%20:%0AJenis%20barang%20yg%20di%20butuhkan%20:%0AJumlah%20barang%20yg%20di%20butuhkan%20:%0AAlamat%20kirim%20:"
+       target="_blank"
+       class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-3 sm:p-4 shadow-2xl transition transform hover:scale-110 z-50 flex items-center justify-center"
+       aria-label="Hubungi via WhatsApp">
+      <!-- Icon WhatsApp SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp sm:w-8 sm:h-8" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+      </svg>
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
