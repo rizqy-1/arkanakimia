@@ -305,7 +305,7 @@ export const products = [
     {
         id: "sodakue",
         nama: "Sodium Biokarbonat (Soda Kue)",
-        gambar: "/assets/sodiumbiocarbonate(sodakue).jpg",
+        gambar: "/assets/sodiumbicarbonate(sodakue).jpeg",
         deskripsiSingkat: "Digunakan luas sebagai bahan pengembang dalam adonan kue.",
         deskripsiLengkap: "Senyawa kimia dengan rumus NaHCO₃ yang tersusun dari ion natrium dan ion bikarbonat.",
         manfaat: [
