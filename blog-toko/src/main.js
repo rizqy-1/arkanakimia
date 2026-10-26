@@ -268,7 +268,7 @@ export const products = [
     {
         id: "tcca-granular",
         nama: "TCCA 90% (Granular)",
-        gambar: ["/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg", "/assets/tccagranular2.jpeg"],
+        gambar: ["/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg", "/assets/tccagranular2.png"],
         deskripsiSingkat: "Klorin murni bentuk butiran untuk sanitasi air kolam renang.",
         deskripsiLengkap: "Trichloroisocyanuric Acid (TCCA) dengan kandungan klorin aktif 90% berbentuk butiran (Granular). Ini adalah pembunuh bakteri dan algasida yang sangat kuat. Bentuk butirannya memungkinkan pelepasan klorin yang terkendali namun cukup cepat saat ditaburkan ke air. Produk ini sangat disukai untuk sanitasi harian dan penanganan air kolam renang ukuran besar secara profesional, menjaga air tetap jernih biru berkilau.",
         manfaat: [
