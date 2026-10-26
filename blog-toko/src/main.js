@@ -270,7 +270,7 @@ export const products = [
             "Tidak mengubah pH air kolam secara signifikan",
             "Sangat ekonomis karena kandungan klorin aktif yang sangat tinggi (90%)"
         ],
-        kemasan: "Drum 50 Kg"
+        kemasan: "Drum 50 Kg / Drum 15 Kg"
     },
     {
         id: "tcca-powder",
@@ -285,7 +285,7 @@ export const products = [
             "Disinfeksi cepat fasilitas umum seperti rumah sakit dan toilet",
             "Bisa digunakan sebagai bahan pemutih industri (konsentrasi tinggi)"
         ],
-        kemasan: "Drum 50 Kg"
+        kemasan: "Drum 50 Kg / Drum 15 Kg"
     },
     {
         id: "tcca-tablet",
@@ -301,6 +301,19 @@ export const products = [
             "Melindungi kejernihan air saat kolam ditinggalkan untuk waktu lama"
         ],
         kemasan: "Drum 50 Kg (Isi Tablet)"
+    },
+    {
+        id: "sodakue",
+        nama: "Sodium Biokarbonat (Soda Kue)",
+        gambar: "/assets/sodiumbiocarbonate(sodakue).jpg",
+        deskripsiSingkat: "Digunakan luas sebagai bahan pengembang dalam adonan kue.",
+        deskripsiLengkap: "Senyawa kimia dengan rumus NaHCO₃ yang tersusun dari ion natrium dan ion bikarbonat.",
+        manfaat: [
+            "Pengembang dalam adonan kue saat dipanaskan.",
+            "Berfungsi meredakan gejala sakit maag, perut kembung, dan rasa panas di dada (heartburn).",
+            "Bahan pembersih abrasif ringan atau penghilang bau tidak sedap."
+        ],
+        kemasan: "Zak 25 Kg"
     }
 ];
 
