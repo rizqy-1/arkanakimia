@@ -268,7 +268,7 @@ export const products = [
     {
         id: "tcca-granular",
         nama: "TCCA 90% (Granular)",
-        gambar: ["/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg", "/assets/tccagranular2.png"],
+        gambar: ["/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg", "/assets/tccagranular2.png", "/assets/tccagranular3.png"],
         deskripsiSingkat: "Klorin murni bentuk butiran untuk sanitasi air kolam renang.",
         deskripsiLengkap: "Trichloroisocyanuric Acid (TCCA) dengan kandungan klorin aktif 90% berbentuk butiran (Granular). Ini adalah pembunuh bakteri dan algasida yang sangat kuat. Bentuk butirannya memungkinkan pelepasan klorin yang terkendali namun cukup cepat saat ditaburkan ke air. Produk ini sangat disukai untuk sanitasi harian dan penanganan air kolam renang ukuran besar secara profesional, menjaga air tetap jernih biru berkilau.",
         manfaat: [
@@ -283,7 +283,7 @@ export const products = [
     {
         id: "tcca-powder",
         nama: "TCCA 90% (Powder)",
-        gambar: "/assets/TrichloroisocyanuricAcid(TccaPowder).jpeg",
+        gambar: ["/assets/TrichloroisocyanuricAcid(TccaPowder).jpeg", "/assets/tccapowder2.png", "/assets/tccapowder3.png"],
         deskripsiSingkat: "Klorin murni bentuk bubuk, larut cepat untuk shock treatment.",
         deskripsiLengkap: "TCCA 90% Powder (Bubuk) menawarkan kecepatan kelarutan yang jauh lebih tinggi dibandingkan granular atau tablet. Karena sifatnya yang langsung larut, produk ini merupakan senjata utama untuk *Shock Treatment*—tindakan darurat menaikkan kadar klorin secara drastis untuk membunuh 'ledakan' alga hijau yang tiba-tiba, atau membersihkan air kolam yang sangat kotor setelah hujan lebat atau penggunaan padat.",
         manfaat: [
