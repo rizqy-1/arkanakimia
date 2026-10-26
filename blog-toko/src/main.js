@@ -253,7 +253,7 @@ export const products = [
     {
         id: "talc-powder",
         nama: "Talc Powder",
-        gambar: "/assets/Talcpowder.jpeg",
+        gambar: "/assets/talcpowder.png",
         deskripsiSingkat: "Bahan pengisi (filler) industri cat, plastik, dan kosmetik.",
         deskripsiLengkap: "Talc Powder (Bedak Talk) adalah mineral lempung magnesium silikat alami yang sangat halus dan lembut. Sifatnya yang *hydrophobic* (menolak air) dan keputihannya yang tinggi menjadikannya bahan pengisi (filler) fungsional yang sangat dihargai di berbagai industri. Talk kami meningkatkan kekakuan dan ketahanan panas pada plastik, memperbaiki tekstur dan penyebaran pada cat/pelapis, dan merupakan basa bedak yang umum di industri farmasi dan kosmetik.",
         manfaat: [
