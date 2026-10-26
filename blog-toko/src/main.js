@@ -15,6 +15,14 @@ if (btn && menu) {
     });
 }
 
+// Helper function for image gallery
+window.changeProductImage = (src) => {
+    const mainImg = document.getElementById('main-product-image');
+    if (mainImg) {
+        mainImg.src = src;
+    }
+};
+
 // 2. Data Produk Lengkap
 export const products = [
     {
@@ -260,7 +268,7 @@ export const products = [
     {
         id: "tcca-granular",
         nama: "TCCA 90% (Granular)",
-        gambar: "/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg",
+        gambar: ["/assets/TrichloroisocyanuricAcid(TccaGranural).jpeg", "/assets/tccagranular2.jpeg"],
         deskripsiSingkat: "Klorin murni bentuk butiran untuk sanitasi air kolam renang.",
         deskripsiLengkap: "Trichloroisocyanuric Acid (TCCA) dengan kandungan klorin aktif 90% berbentuk butiran (Granular). Ini adalah pembunuh bakteri dan algasida yang sangat kuat. Bentuk butirannya memungkinkan pelepasan klorin yang terkendali namun cukup cepat saat ditaburkan ke air. Produk ini sangat disukai untuk sanitasi harian dan penanganan air kolam renang ukuran besar secara profesional, menjaga air tetap jernih biru berkilau.",
         manfaat: [
@@ -304,7 +312,7 @@ export const products = [
     },
     {
         id: "sodakue",
-        nama: "Sodium Biokarbonat (Soda Kue)",
+        nama: "Sodium Bikarbonat (Soda Kue)",
         gambar: "/assets/sodiumbicarbonate(sodakue).jpeg",
         deskripsiSingkat: "Digunakan luas sebagai bahan pengembang dalam adonan kue.",
         deskripsiLengkap: "Senyawa kimia dengan rumus NaHCO₃ yang tersusun dari ion natrium dan ion bikarbonat.",
@@ -334,6 +342,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update Title Halaman HTML
             document.title = `${product.nama} | Arkana Kimia`;
             
+            // Handle gambar (convert to array if it's a string for backward compatibility)
+            const images = Array.isArray(product.gambar) ? product.gambar : [product.gambar];
+            
             // Format pesan WA khusus produk ini
             const waText = encodeURIComponent(`Halo Arkana Kimia, saya ingin memesan:\n\nNama :\nJenis barang yg di butuhkan : *${product.nama}*\nJumlah barang yg di butuhkan :\nAlamat kirim :`);
             const waLink = `https://wa.me/6282123616156?text=${waText}`;
@@ -344,13 +355,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 manfaatHtml += `<li class="flex items-start mb-2"><svg class="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-gray-700">${m}</span></li>`;
             });
 
+            // Generate thumbnails HTML
+            let thumbnailsHtml = '';
+            images.forEach((img, index) => {
+                thumbnailsHtml += `
+                    <button onclick="window.changeProductImage('${img}')" class="w-20 h-20 border-2 border-transparent hover:border-primary rounded-md overflow-hidden transition duration-200 focus:outline-none focus:ring-2 focus:ring-primary">
+                        <img src="${img}" alt="${product.nama} view ${index + 1}" class="w-full h-full object-cover">
+                    </button>`;
+            });
+
             // Isi template HTML dengan data produk
             productDetailContainer.innerHTML = `
                 <div class="bg-white rounded-2xl shadow-xl overflow-hidden mb-12">
                     <div class="flex flex-col md:flex-row">
                         <!-- Kolom Gambar -->
-                        <div class="w-full md:w-5/12 bg-gray-100 p-8 flex items-center justify-center">
-                            <img src="${product.gambar}" alt="${product.nama}" class="max-w-full h-auto rounded-lg shadow-md object-cover transition transform hover:scale-105 duration-300" onerror="this.src='https://via.placeholder.com/600x400?text=${product.nama.replace(/\s+/g, '+')}'">
+                        <div class="w-full md:w-5/12 bg-gray-100 p-8 flex flex-col items-center justify-center gap-4">
+                            <div class="relative group w-full flex justify-center">
+                                <img id="main-product-image" src="${images[0]}" alt="${product.nama}" class="max-w-full h-auto rounded-lg shadow-md object-cover transition transform duration-300 max-h-[500px]">
+                            </div>
+                            <div class="flex gap-2 overflow-x-auto pb-2">
+                                ${thumbnailsHtml}
+                            </div>
                         </div>
                         
                         <!-- Kolom Detail -->
