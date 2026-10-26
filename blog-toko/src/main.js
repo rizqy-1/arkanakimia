@@ -45,7 +45,7 @@ export const products = [
             "Sanitasi air limbah industri sebelum dibuang",
             "Disinfeksi permukaan dan peralatan di industri makanan"
         ],
-        kemasan: "Drum 15 Kg / 50 Kg"
+        kemasan: "Drum 15 Kg"
     },
     {
         id: "caustic-soda-flake",
@@ -165,7 +165,7 @@ export const products = [
             "Meninggalkan residu aluminium yang jauh lebih rendah di air olahan",
             "Sangat ideal untuk pengolahan air minum bersih (PDAM)"
         ],
-        kemasan: "Zak 25 Kg"
+        kemasan: "Zak 20 Kg"
     },
     {
         id: "pac-jerman",
@@ -210,7 +210,7 @@ export const products = [
             "Melembutkan air sadah (hard water) dengan mengendapkan ion kalsium",
             "Industri metalurgi untuk pemrosesan bijih aluminium"
         ],
-        kemasan: "Zak 40 Kg / 50 Kg"
+        kemasan: "Zak 50 Kg"
     },
     {
         id: "spc",
